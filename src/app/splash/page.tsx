@@ -19,7 +19,7 @@ export default function Splash() {
             <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1.25 }}
+                transition={{ duration: 1.5 }}
             >
                 <Image src="/logo.svg" width={344} height={172} alt="Sudokai Main Logo" />
             </motion.div>
